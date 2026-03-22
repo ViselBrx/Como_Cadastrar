@@ -2,7 +2,7 @@
   <img src="./assets/logo.png" alt="Logo do Projeto" width="200"/>
   <h1>📺 Guia de Administração: Conteúdo Dinâmico™</h1>
   <p>Manual oficial para cadastro, padronização e manutenção de mídias no portal.</p>
-  <sub>© ViselBrx™ e DaviMoraes07™</sub>
+  <p>© ViselBrx™ e DaviMoraes07™</p>
   <br>
   <p>
     <img src="https://img.shields.io/badge/Status-Ativo-brightgreen" alt="Status Ativo">
