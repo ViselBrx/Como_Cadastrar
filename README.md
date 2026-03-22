@@ -241,5 +241,4 @@ Para manter o portal com padrão profissional:
 
 <div align="center">
   <sub>Documento administrativo interno • Uso exclusivo da equipe de cadastro e manutenção de conteúdo</sub><br/>
-  <sub>© ViselBrx™ e DaviMoraes07™</sub>
 </div>
