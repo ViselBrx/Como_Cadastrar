@@ -220,7 +220,7 @@ Abra o episódio ou filme correto. O RedeCanais é rígido com pop-ups e pode ab
 
 ### Screen 4: Pegar o código iframe
 
-Localize a opção de `iframe` ou `embed` e copie o código de incorporação.
+Localize a opção de `iframe` ou `embed` e clique nela.
 
 ![Screen 4 - Código iframe](./.prints/screenshot4.png)
 
