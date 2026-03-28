@@ -1,8 +1,8 @@
 <div align="center">
   <img src="./assets/logo.png" alt="Logo do Projeto" width="200"/>
-  <h1>📺 Guia de Administração: Conteúdo Dinâmico™</h1>
+  <h1>Guia de Administração: Conteúdo Dinâmico</h1>
   <p>Manual oficial para cadastro, padronização e manutenção de mídias no portal.</p>
-  <p>© ViselBrx™ e DaviMoraes07™</p>
+  <p>© ViselBrx e DaviMoraes07</p>
   <br>
   <p>
     <img src="https://img.shields.io/badge/Status-Ativo-brightgreen" alt="Status Ativo">
@@ -14,29 +14,21 @@
 
 ---
 
-## 📖 Índice
+## Índice
 
-1. [Visão Geral do Sistema](#-visão-geral-do-sistema)
-2. [Objetivo deste Manual](#-objetivo-deste-manual)
-3. [Estrutura de Conteúdo](#-estrutura-de-conteúdo)
-   - [1. Desenhos](#1-desenhos)
-   - [2. Animes](#2-animes)
-   - [3. Filmes](#3-filmes)
-   - [4. Mangás](#4-mangás)
-4. [Padrões Gerais de Cadastro](#-padrões-gerais-de-cadastro)
-5. [Tutorial de Cadastro: Vídeos](#-tutorial-de-cadastro-vídeos)
-   - [Passo a Passo para Obter o Iframe](#passo-a-passo-para-obter-o-iframe)
-   - [Padrão de Estilo do Player](#padrão-de-estilo-do-player)
-6. [Tutorial de Cadastro: Mangás (PDF)](#-tutorial-de-cadastro-mangás-pdf)
-   - [Opção A: Upload Direto](#opção-a-upload-direto)
-   - [Opção B: Link do Google Drive](#opção-b-link-do-google-drive)
-7. [Checklist de Publicação](#-checklist-de-publicação)
-8. [Boas Práticas e Recomendações](#-boas-práticas-e-recomendações)
-9. [Suporte e Contato](#-suporte-e-contato)
+1. [Visão Geral do Sistema](#visão-geral-do-sistema)
+2. [Objetivo deste Manual](#objetivo-deste-manual)
+3. [Estrutura de Conteúdo](#estrutura-de-conteúdo)
+4. [Padrões Gerais de Cadastro](#padrões-gerais-de-cadastro)
+5. [Tutorial de Cadastro: Vídeos](#tutorial-de-cadastro-vídeos)
+6. [Tutorial de Cadastro: Mangás (PDF)](#tutorial-de-cadastro-mangás-pdf)
+7. [Espaço para Prints](#espaço-para-prints)
+8. [Checklist de Publicação](#checklist-de-publicação)
+9. [Boas Práticas e Recomendações](#boas-práticas-e-recomendações)
 
 ---
 
-## 🧭 Visão Geral do Sistema
+## Visão Geral do Sistema
 
 Este manual foi criado para administradores e colaboradores responsáveis pela publicação de conteúdos no portal. O objetivo é garantir que animes, desenhos, filmes e mangás sigam um padrão visual, técnico e organizacional consistente.
 
@@ -44,7 +36,7 @@ Seguir este processo ajuda a evitar erros de exibição, links inválidos e inco
 
 ---
 
-## 🎯 Objetivo deste Manual
+## Objetivo deste Manual
 
 Este documento tem como finalidade:
 
@@ -56,14 +48,14 @@ Este documento tem como finalidade:
 
 ---
 
-## 🗂 Estrutura de Conteúdo
+## Estrutura de Conteúdo
 
 O portal está organizado em 4 categorias principais:
 
 | Ícone | Categoria | Tipo de Item | Estrutura | Observação |
 | :---: | :--- | :--- | :--- | :--- |
 | 🎨 | **Desenhos** | Episódios | Série por temporada | Possui múltiplos episódios. |
-| 🀄️ | **Animes** | Episódios | Série por temporada | Possui múltiplos episódios. |
+| 🎌 | **Animes** | Episódios | Série por temporada | Possui múltiplos episódios. |
 | 🎬 | **Filmes** | Único | Conteúdo individual | Não possui episódios. |
 | 📚 | **Mangás** | Volumes | Publicação sequencial | Possui múltiplos volumes ou capítulos. |
 
@@ -85,7 +77,7 @@ Conteúdos organizados por volumes ou capítulos. O arquivo pode ser enviado dir
 
 ---
 
-## 📐 Padrões Gerais de Cadastro
+## Padrões Gerais de Cadastro
 
 Antes de publicar qualquer conteúdo, verifique:
 
@@ -98,7 +90,7 @@ Antes de publicar qualquer conteúdo, verifique:
 
 ---
 
-## 🎥 Tutorial de Cadastro: Vídeos
+## Tutorial de Cadastro: Vídeos
 
 Esta seção se aplica a:
 
@@ -111,7 +103,7 @@ Para esses conteúdos, é utilizada a plataforma **RedeCanais**, de onde será o
 ### Passo a Passo para Obter o Iframe
 
 1. **Acesse o RedeCanais**  
-   Entre na plataforma oficial usada como fonte do player (exemplo de domínio: `redecanais.ooo`).
+   Entre em `redecanais.cafe`. Se o domínio oficial mudar, substitua apenas o final `.cafe` pelo novo domínio em uso.
 
 2. **Pesquise o título desejado**  
    Use a busca para localizar o conteúdo.
@@ -119,12 +111,13 @@ Para esses conteúdos, é utilizada a plataforma **RedeCanais**, de onde será o
 3. **Abra o item correto**  
    - Para **desenhos** e **animes**, selecione o episódio exato.
    - Para **filmes**, abra a página do filme.
+   - O RedeCanais costuma abrir várias janelas pop-up. Basta fechar as janelas extras e voltar para a página em que você estava.
 
 4. **Localize a opção de incorporação**  
-   Na área do player, procure a opção **"Encrud"** (ou equivalente), que exibe o código de incorporação.
+   Na área do player, procure a opção de código `iframe` ou `embed`.
 
 5. **Copie o código completo**  
-   Copie integralmente o bloco `<iframe>`.
+   Copie integralmente o bloco `<iframe>` e ajuste para `height="450"` e `width="800"`.
 
 6. **Cole no campo correspondente do CMS**  
    Insira o iframe no campo apropriado do painel administrativo.
@@ -152,7 +145,7 @@ Após colar o código no CMS, ajuste largura e altura para manter o padrão visu
 
 ---
 
-## 📚 Tutorial de Cadastro: Mangás (PDF)
+## Tutorial de Cadastro: Mangás (PDF)
 
 O cadastro de mangás pode ser feito de duas formas, conforme o tamanho do arquivo e a estratégia de hospedagem.
 
@@ -182,11 +175,12 @@ Use esta opção quando o PDF for muito grande ou quando houver necessidade de h
 
 #### Etapas
 
-1. Faça o upload do PDF no Google Drive.
-2. Ajuste as permissões de compartilhamento conforme o padrão da equipe.
-3. Copie o link de compartilhamento.
-4. Insira o link no campo correspondente do painel.
-5. Salve e teste o acesso.
+1. Acesse um link do Google Drive ou outro serviço que permita incorporar PDFs relacionados a mangás.
+2. Abra a caixa menor de compartilhamento ou visualização do arquivo.
+3. Copie o link do PDF do volume desejado.
+4. Clique com o botão esquerdo para confirmar a ação, quando necessário.
+5. Insira o link no campo correspondente do painel.
+6. Salve e teste o acesso.
 
 #### Vantagens
 
@@ -202,7 +196,79 @@ Use esta opção quando o PDF for muito grande ou quando houver necessidade de h
 
 ---
 
-## ✅ Checklist de Publicação
+## Espaço para Prints
+
+Os prints abaixo documentam o fluxo completo de cadastro. Todos os arquivos estão dentro da pasta `.prints/`.
+
+### Screen 1: Acessar o RedeCanais
+
+Acesse `redecanais.cafe`. Se trocarem de domínio, altere apenas o final `.cafe` para o novo domínio oficial.
+
+![Screen 1 - Acesso ao RedeCanais](./.prints/screenshot1.png)
+
+### Screen 2: Pesquisar o conteúdo desejado
+
+Use a busca para localizar o anime, desenho ou filme que será cadastrado.
+
+![Screen 2 - Pesquisa do conteúdo](./.prints/screenshot2.png)
+
+### Screen 3: Entrar no episódio ou filme
+
+Abra o episódio ou filme correto. O RedeCanais é rígido com pop-ups e pode abrir várias janelas. Basta fechar as janelas extras e voltar para a página em que você estava.
+
+![Screen 3 - Página do episódio ou filme](./.prints/screenshot3.png)
+
+### Screen 4: Pegar o código iframe
+
+Localize a opção de `iframe` ou `embed` e copie o código de incorporação.
+
+![Screen 4 - Código iframe](./.prints/screenshot4.png)
+
+### Screen 5: Ajustar o iframe
+
+Copie o `iframe` e ajuste o padrão para `height="450"` e `width="800"` antes de salvar no CMS.
+
+![Screen 5 - Ajuste do iframe](./.prints/screenshot5.png)
+
+### Screen 6: Demonstração do cadastro implementado
+
+Exemplo de como o cadastro finalizado deve ficar no sistema.
+
+![Screen 6 - Cadastro implementado](./.prints/screenshot6.png)
+
+### Screen 7: Abrir o link do PDF
+
+Acesse um link do Google Drive ou de outro serviço que permita incorporar PDFs relacionados a mangás.
+
+![Screen 7 - Link do PDF](./.prints/screenshot7.png)
+
+### Screen 8: Abrir a caixa menor e selecionar o volume
+
+Abra a caixa menor, localize o PDF do volume desejado e clique com o botão direto para selecionar.
+
+![Screen 8 - Seleção do volume](./.prints/screenshot8.png)
+
+### Screen 9: Copiar o link do volume
+
+Copie o link do volume que será usado no cadastro.
+
+![Screen 9 - Link do volume](./.prints/screenshot9.png)
+
+### Screen 10: Demonstração do cadastro do volume
+
+Exemplo de como fica o cadastro de um volume de mangá dentro do painel.
+
+![Screen 10 - Cadastro do volume](./.prints/screenshot10.png)
+
+### Screen 11: Volume aberto com PDF integrado
+
+Exemplo do volume aberto com o PDF incorporado corretamente no portal.
+
+![Screen 11 - PDF integrado](./.prints/scrennshot11.png)
+
+---
+
+## Checklist de Publicação
 
 Antes de finalizar qualquer cadastro, confirme:
 
@@ -217,7 +283,7 @@ Antes de finalizar qualquer cadastro, confirme:
 
 ---
 
-## 💡 Boas Práticas e Recomendações
+## Boas Práticas e Recomendações
 
 Para manter o portal com padrão profissional:
 
