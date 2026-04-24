@@ -5,12 +5,33 @@
   <p>© ViselBrx e DaviMoraes07</p>
   <br>
   <p>
-    <img src="https://img.shields.io/badge/Status-Ativo-brightgreen" alt="Status Ativo">
-    <img src="https://img.shields.io/badge/Versão-1.1.0-blue" alt="Versão 1.1.0">
-    <img src="https://img.shields.io/badge/Plataforma-Web-lightgrey" alt="Plataforma Web">
-    <img src="https://img.shields.io/badge/Documentação-Administrativa-informational" alt="Documentação Administrativa">
+    <img src="https://img.shields.io/badge/Status-Ativo-brightgreen?style=for-the-badge" alt="Status Ativo" />
+    <img src="https://img.shields.io/badge/Versão-1.1.0-0077B6?style=for-the-badge" alt="Versão 1.1.0" />
+    <img src="https://img.shields.io/badge/Plataforma-Web-4A4A4A?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Plataforma Web" />
+    <img src="https://img.shields.io/badge/Documentação-Administrativa-6A0DAD?style=for-the-badge" alt="Documentação Administrativa" />
   </p>
 </div>
+
+---
+
+## 🧰 Tecnologias e Ferramentas
+
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000" alt="JavaScript" />
+  <br />
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
+  <img src="https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" alt="Google Drive" />
+  <img src="https://img.shields.io/badge/RedeCanais-E50914?style=for-the-badge&logo=youtube&logoColor=white" alt="RedeCanais" />
+  <br />
+  <img src="https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logo=groq&logoColor=white" alt="Groq" />
+  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare" />
+  <br />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code" />
+</p>
 
 ---
 
@@ -20,7 +41,7 @@
 2. [Objetivo deste Manual](#objetivo-deste-manual)
 3. [Estrutura de Conteúdo](#estrutura-de-conteúdo)
 4. [Padrões Gerais de Cadastro](#padrões-gerais-de-cadastro)
-5. [Tutorial de Cadastro: Vídeos](#tutorial-de-cadastro-vídeos)
+5. [Tutorial de Cadastro: Vídeos e YouTube](#tutorial-de-cadastro-vídeos-e-youtube)
 6. [Tutorial de Cadastro: Mangás (PDF)](#tutorial-de-cadastro-mangás-pdf)
 7. [Espaço para Prints](#espaço-para-prints)
 8. [Checklist de Publicação](#checklist-de-publicação)
@@ -30,7 +51,7 @@
 
 ## Visão Geral do Sistema
 
-Este manual foi criado para administradores e colaboradores responsáveis pela publicação de conteúdos no portal. O objetivo é garantir que animes, desenhos, filmes e mangás sigam um padrão visual, técnico e organizacional consistente.
+Este manual foi criado para administradores e colaboradores responsáveis pela publicação de conteúdos no portal. O objetivo é garantir que animes, desenhos, filmes, mangás e playlists do YouTube sigam um padrão visual, técnico e organizacional consistente.
 
 Seguir este processo ajuda a evitar erros de exibição, links inválidos e inconsistências no catálogo, além de facilitar a manutenção do sistema.
 
@@ -50,7 +71,7 @@ Este documento tem como finalidade:
 
 ## Estrutura de Conteúdo
 
-O portal está organizado em 4 categorias principais:
+O portal está organizado em 5 categorias principais:
 
 | Ícone | Categoria | Tipo de Item | Estrutura | Observação |
 | :---: | :--- | :--- | :--- | :--- |
@@ -58,6 +79,7 @@ O portal está organizado em 4 categorias principais:
 | 🎌 | **Animes** | Episódios | Série por temporada | Possui múltiplos episódios. |
 | 🎬 | **Filmes** | Único | Conteúdo individual | Não possui episódios. |
 | 📚 | **Mangás** | Volumes | Publicação sequencial | Possui múltiplos volumes ou capítulos. |
+| ▶️ | **YouTube** | Vídeos | Vídeo individual | Incorporado via código `iframe` do vídeo. |
 
 ### 1. Desenhos
 
@@ -75,6 +97,10 @@ Conteúdo unitário, cadastrado como item único.
 
 Conteúdos organizados por volumes ou capítulos. O arquivo pode ser enviado diretamente ou por link externo.
 
+### 5. YouTube
+
+Vídeos cadastrados individualmente via código `iframe` do próprio YouTube. O processo é idêntico ao dos demais vídeos: copie o iframe do vídeo e cole no campo correspondente do painel.
+
 ---
 
 ## Padrões Gerais de Cadastro
@@ -90,15 +116,16 @@ Antes de publicar qualquer conteúdo, verifique:
 
 ---
 
-## Tutorial de Cadastro: Vídeos
+## Tutorial de Cadastro: Vídeos e YouTube
 
 Esta seção se aplica a:
 
 - **Desenhos**
 - **Animes**
 - **Filmes**
+- **YouTube**
 
-Para esses conteúdos, é utilizada a plataforma **RedeCanais**, de onde será obtido o código de incorporação (`iframe`) do player.
+Para todos os conteúdos (desenhos, animes, filmes e YouTube), o processo é o mesmo: obter o código `iframe` do vídeo e insertá-lo no campo correspondente do painel. Para desenhos, animes e filmes usa-se o **RedeCanais**; para YouTube, copia-se o iframe diretamente do vídeo no YouTube.
 
 ### Passo a Passo para Obter o Iframe
 
