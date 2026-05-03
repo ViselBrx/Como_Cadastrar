@@ -71,7 +71,7 @@ Este documento tem como finalidade:
 
 ## Estrutura de Conteúdo
 
-O portal está organizado em 5 categorias principais:
+O portal está organizado em 6 categorias principais:
 
 | Ícone | Categoria | Tipo de Item | Estrutura | Observação |
 | :---: | :--- | :--- | :--- | :--- |
@@ -79,6 +79,7 @@ O portal está organizado em 5 categorias principais:
 | 🎌 | **Animes** | Episódios | Série por temporada | Possui múltiplos episódios. |
 | 🎬 | **Filmes** | Único | Conteúdo individual | Não possui episódios. |
 | 📚 | **Mangás** | Volumes | Publicação sequencial | Possui múltiplos volumes ou capítulos. |
+| 🗯️ | **HQs** | Edições | Publicação sequencial | Possui múltiplas edições. |
 | ▶️ | **YouTube** | Vídeos | Vídeo individual | Incorporado via código `iframe` do vídeo. |
 
 ### 1. Desenhos
@@ -97,7 +98,11 @@ Conteúdo unitário, cadastrado como item único.
 
 Conteúdos organizados por volumes ou capítulos. O arquivo pode ser enviado diretamente ou por link externo.
 
-### 5. YouTube
+### 5. HQs
+
+Segue a mesma lógica dos mangás, organizadas por edições. O arquivo pode ser enviado diretamente ou por link externo.
+
+### 6. YouTube
 
 Vídeos cadastrados individualmente via código `iframe` do próprio YouTube. O processo é idêntico ao dos demais vídeos: copie o iframe do vídeo e cole no campo correspondente do painel.
 
@@ -172,9 +177,9 @@ Após colar o código no CMS, ajuste largura e altura para manter o padrão visu
 
 ---
 
-## Tutorial de Cadastro: Mangás (PDF)
+## Tutorial de Cadastro: Mangás e HQs (PDF)
 
-O cadastro de mangás pode ser feito de duas formas, conforme o tamanho do arquivo e a estratégia de hospedagem.
+O cadastro de mangás e HQs pode ser feito de duas formas, conforme o tamanho do arquivo e a estratégia de hospedagem.
 
 ### Opção A: Upload Direto
 
@@ -185,7 +190,7 @@ Use esta opção quando o PDF estiver dentro do limite suportado pelo painel.
 #### Etapas
 
 1. Acesse o painel administrativo.
-2. Vá até a seção de cadastro de mangás.
+2. Vá até a seção de cadastro de mangás ou HQs.
 3. Preencha os dados principais.
 4. Faça o upload do PDF no campo indicado.
 5. Salve e revise a publicação.
@@ -202,7 +207,7 @@ Use esta opção quando o PDF for muito grande ou quando houver necessidade de h
 
 #### Etapas
 
-1. Acesse um link do Google Drive ou outro serviço que permita incorporar PDFs relacionados a mangás.
+1. Acesse um link do Google Drive ou outro serviço que permita incorporar PDFs relacionados a mangás ou HQs.
 2. Abra a caixa menor de compartilhamento ou visualização do arquivo.
 3. Copie o link do PDF do volume desejado.
 4. Clique com o botão esquerdo para confirmar a ação, quando necessário.
@@ -265,7 +270,7 @@ Exemplo de como o cadastro finalizado deve ficar no sistema.
 
 ### Screen 7: Abrir o link do PDF
 
-Acesse um link do Google Drive ou de outro serviço que permita incorporar PDFs relacionados a mangás.
+Acesse um link do Google Drive ou de outro serviço que permita incorporar PDFs relacionados a mangás e HQs.
 
 ![Screen 7 - Link do PDF](./.prints/screenshot7.png)
 
@@ -283,7 +288,7 @@ Copie o link do volume que será usado no cadastro.
 
 ### Screen 10: Demonstração do cadastro do volume
 
-Exemplo de como fica o cadastro de um volume de mangá dentro do painel.
+Exemplo de como fica o cadastro de um volume de mangá ou edição de HQ dentro do painel.
 
 ![Screen 10 - Cadastro do volume](./.prints/screenshot10.png)
 
@@ -327,7 +332,7 @@ Para manter o portal com padrão profissional:
 - colar iframe incompleto;
 - esquecer de ajustar `width` e `height`;
 - publicar links quebrados;
-- inserir mangá com permissão privada no Google Drive;
+- inserir mangá ou HQ com permissão privada no Google Drive;
 - criar entradas duplicadas por falta de conferência.
 
 ---
